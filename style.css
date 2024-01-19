@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-image: url("BG.jpg");
+    background-repeat: no-repeat; /* empêche l'image de se répéter */
+    background-position: center; /* centre l'image */
+    background-size: cover; /* adapte l'image à la taille de l'élément */
+    background-attachment: fixed; /* fixe l'image par rapport à la fenêtre */
+}
+
+
+img{
+    width: 380px;
+    height: auto;
+    margin-left: 490px;
+    
+}
+
+.GAMEMODE{
+    margin-top: 60px;
+}
+
+.Mode1{
+    width: 350px;
+    height: auto;
+    margin-bottom: 30px;
+    
+}
+
+.Mode2{
+    width: 350px;
+    height: auto;
+    margin-bottom: -100px ;
+    
+    
+}
+
+.Mode1:hover{
+    transform: scale(1.2);
+    transition: transform .2s;
+}
+
+.Mode2:hover{
+    transform: scale(1.2);
+    transition: transform .2s;
+}
+
+img:hover{
+    transform: scale(1.2);
+    transition: transform .2s;
+}
+

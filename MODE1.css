@@ -1,0 +1,97 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-image: url("BG4.jpg");
+    background-repeat: no-repeat; /* empêche l'image de se répéter */
+    background-position: center; /* centre l'image */
+    background-size: cover; /* adapte l'image à la taille de l'élément */
+    background-attachment: fixed; /* fixe l'image par rapport à la fenêtre */
+}
+
+
+img{
+    width: 380px;
+    height: auto;
+    margin-left: 510px;
+}
+
+img:hover{
+    transform: scale(1.2);
+    transition: transform .2s;
+}
+
+
+.rectangle {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* Augmentation de la taille du rectangle */
+    height: 150px; /* Augmentation de la hauteur du rectangle */
+    background-color: #242323; /* Gris foncé */
+    border: 2px solid #2E62A3; /* Bleu */
+    border-radius: 12px;
+    text-align: center;
+    padding: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow:0px 0px 87px 2px rgba(87,109,250,0.3);
+    -moz-box-shadow: 0px 0px 87px 2px rgba(87,109,250,0.3);
+    box-shadow: 0px 0px 87px 2px rgba(87,109,250,0.3);
+}
+
+.rectangle h2 {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.rectangle p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: white;
+    top: 0px;
+}
+
+.counter {
+    font-size: 50px;
+    font-weight: bold;
+    color: #2E62A3; /* Jaune */
+    margin-top: 10px;
+    left: 50%;
+}
+
+.small-text {
+    font-size: 15px;
+    color: white;
+    position: relative; /* Ajout de la propriété position relative */
+    top: -75px; /* Ajustement de la position vers le bas */
+    
+}
+
+.search-bar {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid #2E62A3; /* Ajout d'une bordure similaire à celle du rectangle */
+    border-radius: 5px; /* Ajout d'une bordure arrondie */
+}
+
+.search-bar button {
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: #2E62A3; /* Changement de la couleur de fond pour correspondre au thème */
+    color: white; /* Changement de la couleur du texte pour une meilleure lisibilité */
+    border: none; /* Suppression de la bordure */
+    border-radius: 5px; /* Ajout d'une bordure arrondie */
+    margin-left: 5px; /* Ajout d'une marge à gauche pour l'espacement */
+}
